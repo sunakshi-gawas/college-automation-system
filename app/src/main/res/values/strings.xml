@@ -33,7 +33,7 @@
     <string-array name="clgname">
         <item>College Name</item>
 
-        <item>SITS</item>
+        <item>  AISSMS Polytechnic  </item>
 
     </string-array>
 
@@ -90,6 +90,9 @@
 
     <string-array name="ayear">
         <item>Academic year</item>
+        <item>2024</item>
+        <item>2023</item>
+        <item>2022</item>
         <item>2021</item>
         <item>2020</item>
         <item>2019</item>
@@ -101,11 +104,10 @@
 
     <string-array name="cyear">
         <item>Select class</item>
-        <item>BE</item>
-        <item>TE</item>
-        <item>SE</item>
-        <item>SE(D.S.E)</item>
-        <item>FE</item>
+        <item>TY</item>
+        <item>SY</item>
+        <item>SY(D.S.E)</item>
+        <item>FY</item>
     </string-array>
 
     <string-array name="installment">
