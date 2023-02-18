@@ -1,4 +1,4 @@
-package com.example.abcs;
+package com.example.CollegeAutomationSystem;
 
 import org.junit.Test;
 

@@ -12,5 +12,5 @@ dependencyResolutionManagement {
 
 
 
-rootProject.name = "ABCS"
+rootProject.name = "CollegeAutomationSystem"
 include ':app'
