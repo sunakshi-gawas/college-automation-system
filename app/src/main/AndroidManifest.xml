@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abcs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+android:icon="@mipmap/newicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ABCS">
+        <activity
+            android:name=".College_pay"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_tool_noticedelete"
+            android:exported="false" />
+        <activity
+            android:name=".A"
+            android:exported="false" />
+        <activity
+            android:name=".admin_supporpay_final_record"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_supportpay_recod_classwise"
+            android:exported="false" />
+        <activity
+            android:name=".support_pay_userwise"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_support_pay_deptwise"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_profile"
+            android:exported="false" />
+        <activity
+            android:name=".admin_delete_account"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_account_reg"
+            android:exported="false" />
+        <activity
+            android:name=".Account_Home"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_student_issued_doc"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_document_issued"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_Doc_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".Feesructure_issue"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.maps.android:android-maps-utils:2.3.0"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".Admin_delete_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherHome"
+            android:exported="false" />
+        <activity
+            android:name=".Student_payment_history"
+            android:exported="false" />
+        <activity
+            android:name=".support_payment_record"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_tool_home"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_teacher_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Support_paymentsection"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_teachers_reg"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_support_solver"
+            android:exported="false" />
+        <activity
+            android:name=".Support_pay"
+            android:exported="false" />
+        <activity
+            android:name=".uplod_teacher_reqdoc"
+            android:exported="false" />
+        <activity
+            android:name=".Document_support"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_delete_user"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_details"
+            android:exported="false" />
+        <activity
+            android:name=".Support_section"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_sort_studentdata_classwise"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_sort_studentdata_deptwise"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_required_docs"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_asper_dept_class"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_class_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_dept_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".userwiser_permision_fetch"
+            android:exported="false" />
+        <activity
+            android:name=".doc_up_diploma"
+            android:exported="false" />
+        <activity
+            android:name=".doc_up_12"
+            android:exported="false" />
+        <activity
+            android:name=".BE_1"
+            android:exported="false" />
+        <activity
+            android:name=".BE_2"
+            android:exported="false" />
+        <activity
+            android:name=".BE_3"
+            android:exported="false" />
+        <activity
+            android:name=".BE_4"
+            android:exported="false" />
+        <activity
+            android:name=".doc_up_10_"
+            android:exported="false" />
+        <activity
+            android:name=".uplod_documents"
+            android:exported="false" />
+        <activity
+            android:name=".downlodpdf"
+            android:exported="false" />
+        <activity
+            android:name=".downlod_notice"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNotificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_exam_payrecord"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_hostel_payrecord"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_clg_paymentrecod"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_paymentsection"
+            android:exported="false" />
+        <activity
+            android:name=".user_permision_home"
+            android:exported="false" />
+        <activity
+            android:name=".test_user_permision_status"
+            android:exported="false" />
+        <activity
+            android:name=".test_user_permision_ask"
+            android:exported="false" />
+        <activity
+            android:name=".test_uplodpdf"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_all_user_permision_section"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_examfees_invoice"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_hostel_fees_invoice"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_collage_fullfee_or_remainfee"
+            android:exported="false" />
+        <activity
+            android:name=".profile_test"
+            android:exported="false" />
+        <activity
+            android:name=".register2"
+            android:exported="false" />
+        <activity
+            android:name=".Adminhome"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_Collage_invoice"
+            android:exported="false" />
+        <activity
+            android:name=".payment_exam_fees"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_hostel"
+            android:exported="false" />
+        <activity
+            android:name=".social_media_login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Payment_college_pay_page"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_class_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_asper_dept_class"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_payment_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_asper_dept_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_permission_wise_sort"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher_asper_dept_permission"
+            android:exported="false" />
+        <activity
+            android:name=".Bonafide_issue_"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Zero_pay_student"
+            android:exported="true" />
+        <activity
+            android:name=".Payment_home_page"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Collage_payrecod_deptwise"
+            android:exported="true" />
+        <activity
+            android:name=".hotel_record_dept_wise"
+            android:exported="true" />
+        <activity
+            android:name=".hostelrecord_class_wise"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_Collage_payrecod"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Collage_payrecod_classwise"
+            android:exported="true" />
+        <activity
+            android:name=".Teacher_required_download"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_path" />
+        </provider>
+    </application>
+
+</manifest>

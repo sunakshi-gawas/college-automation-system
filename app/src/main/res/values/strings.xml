@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">ABCS</string>
+
+
+    <string-array name="Time_array">
+        <item>12 AM</item>
+        <item>1 AM</item>
+        <item>2 AM</item>
+        <item>3 AM</item>
+        <item>4 AM</item>
+        <item>5 AM</item>
+        <item>6 AM</item>
+        <item>7 AM</item>
+        <item>8 AM</item>
+        <item>9 AM</item>
+        <item>10 AM</item>
+        <item>11 AM</item>
+        <item>12 PM</item>
+        <item>1 PM</item>
+        <item>2 PM</item>
+        <item>3 PM</item>
+        <item>4 PM</item>
+        <item>5 PM</item>
+        <item>6 PM</item>
+        <item>7 PM</item>
+        <item>8 PM</item>
+        <item>9 PM</item>
+        <item>10 PM</item>
+        <item>11 PM</item>
+    </string-array>
+
+
+    <string-array name="clgname">
+        <item>College Name</item>
+
+        <item>SITS</item>
+
+    </string-array>
+
+
+    <string-array name="brname">
+        <item>Branch Name</item>
+        <item>Mech</item>
+        <item>Civil</item>
+        <item>ENTC</item>
+        <item>IT</item>
+        <item>Comp</item>
+
+    </string-array>
+
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="desg">
+        <item>Desgination</item>
+        <item>Head</item>
+        <item>TG</item>
+    </string-array>
+
+
+    <string-array name="adtype">
+        <item>Admission Type</item>
+        <item>Capround</item>
+        <item>Management </item>
+        <item>TFWS</item>
+        <item>In House Kota </item>
+        <item>j and k</item>
+    </string-array>
+
+
+    <string-array name="ctype">
+        <item>Select Category</item>
+        <item>Open</item>
+        <item>Open(EBC) </item>
+        <item>O.B.C</item>
+        <item>SC/NT</item>
+    </string-array>
+
+    <string-array name="authority">
+        <item>Select Authority</item>
+        <item>Admin Section</item>
+        <item>Account Section</item>
+        <item>Teacher Section</item>
+
+    </string-array>
+
+    <string-array name="ayear">
+        <item>Academic year</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+    </string-array>
+
+
+    <string-array name="cyear">
+        <item>Select class</item>
+        <item>BE</item>
+        <item>TE</item>
+        <item>SE</item>
+        <item>SE(D.S.E)</item>
+        <item>FE</item>
+    </string-array>
+
+    <string-array name="installment">
+        <item>Select Installment </item>
+        <item>First</item>
+        <item>Second</item>
+
+    </string-array>
+
+    <string-array name="installmentpart2">
+        <item>Select Installment</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+    </string-array>
+
+
+    //all permision
+    <string-array name="PermiosonSection">
+        <item>Select section</item>
+        <item>Collage</item>
+        <item>hostel</item>
+        <item>dept</item>
+    </string-array>
+
+    //collage
+    <string-array name="Permiosonforcollage">
+        <item>⭐Permioson for collage⭐</item>
+        <item>event</item>
+        <item>seminar</item>
+        <item>lab</item>
+        <item>⭐Permioson for Hostel⭐</item>
+        <item>vectorpermision</item>
+        <item>night out</item>
+        <item>day out</item>
+        <item>⭐Permioson for dept⭐</item>
+        <item>half day </item>
+        <item>leave</item>
+        <item>late in lecture  </item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_key" translatable="false">AIzaSyBkoNZkDa8d86_6dq0ZBoxHg7a3GYO7r1U</string>
+
+</resources>

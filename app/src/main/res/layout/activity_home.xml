@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="20dp"/>
+
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="100dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView208"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="2dp"
+                android:paddingStart="10dp"
+                android:text="TextView"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/VerifyMsg"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:paddingStart="10dp"
+                android:text="Email Not Verify !"
+                android:textSize="16sp"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/resend_code"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="20dp"
+                android:text="Verify"
+                android:textSize="14sp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/tp"
+                android:layout_width="200dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:visibility="invisible"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SECTIONS"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/board"/>
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="35dp"
+                android:background="@drawable/copy"/>
+            <Button
+                android:id="@+id/btn_payment"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="35dp"
+                android:background="@drawable/mpay"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="Notice    Board"
+                android:textAlignment="center"
+                android:textColor="#44109F"
+                />
+
+            <TextView
+                android:layout_width="86dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:text="Document"
+                android:textColor="#44109F"
+              />
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:text="Payment"
+                android:textAlignment="center"
+                android:textColor="#44109F"
+             />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/account"/>
+
+            <Button
+                android:id="@+id/peract"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="35dp"
+                android:background="@drawable/user" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/customersupport" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="85dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:text="Profile"
+                android:textColor="#44109F"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="25dp"
+                android:text="Permission"
+                android:textColor="#44109F"
+              />
+
+            <TextView
+                android:layout_width="89dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="30dp"
+                android:text="Support"
+                android:textAlignment="center"
+                android:textColor="#44109F" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView206"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+</LinearLayout>

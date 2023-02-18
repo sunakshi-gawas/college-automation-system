@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_support_pay_deptwise">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="436dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="@color/white_500"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="Information Technology"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/white_500"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:text="Mechanical"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Computer"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white_500"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Entc"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white_500"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Civil"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white_500"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/textView182"
+        android:layout_width="361dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="18dp"
+        android:backgroundTint="@color/white_500"
+        android:text="Select Department"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

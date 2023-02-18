@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Document_support">
+
+    <Button
+        android:id="@+id/del10"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white_500"
+        android:text="Delete 10th"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/del12"
+        app:layout_constraintEnd_toEndOf="@+id/textView119"
+        app:layout_constraintStart_toStartOf="@+id/textView119"
+        app:layout_constraintTop_toBottomOf="@+id/textView119" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/white_500"
+        android:text="  Uploaded Documents  "
+
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/del10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/del12"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white_500"
+        android:text="Delete 12th"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/deldip"
+        app:layout_constraintEnd_toEndOf="@+id/del10"
+        app:layout_constraintStart_toStartOf="@+id/del10"
+        app:layout_constraintTop_toBottomOf="@+id/del10" />
+
+    <Button
+        android:id="@+id/deldip"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete Diploma"
+        android:backgroundTint="@color/white_500"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/delfe"
+        app:layout_constraintEnd_toEndOf="@+id/del12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/del12"
+        app:layout_constraintTop_toBottomOf="@+id/del12" />
+
+    <Button
+        android:id="@+id/delfe"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete FE"
+        android:backgroundTint="@color/white_500"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/delse"
+        app:layout_constraintEnd_toEndOf="@+id/deldip"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/deldip"
+        app:layout_constraintTop_toBottomOf="@+id/deldip" />
+
+    <Button
+        android:id="@+id/delse"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete SE"
+        android:backgroundTint="@color/white_500"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/delte"
+        app:layout_constraintEnd_toEndOf="@+id/delfe"
+        app:layout_constraintStart_toStartOf="@+id/delfe"
+        app:layout_constraintTop_toBottomOf="@+id/delfe" />
+
+    <Button
+        android:id="@+id/delte"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete TE"
+        android:backgroundTint="@color/white_500"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/delbe"
+        app:layout_constraintEnd_toEndOf="@+id/delse"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/delse"
+        app:layout_constraintTop_toBottomOf="@+id/delse" />
+
+    <Button
+        android:id="@+id/delbe"
+        android:layout_width="254dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete BE"
+        android:backgroundTint="@color/white_500"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/delcus"
+        app:layout_constraintEnd_toEndOf="@+id/delte"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/delte"
+        app:layout_constraintTop_toBottomOf="@+id/delte" />
+
+    <Button
+        android:id="@+id/delcus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="74dp"
+        android:text="Custom"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/delbe"
+        app:layout_constraintStart_toStartOf="@+id/delbe"
+        app:layout_constraintTop_toBottomOf="@+id/delbe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

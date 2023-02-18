@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
+
+        <EditText
+            android:id="@+id/mno2"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:digits="1234567890"
+            android:ems="10"
+            android:hint="Roll Number"
+            android:inputType="text"
+            android:maxLength="7"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/et_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+        <EditText
+            android:id="@+id/etRegEmail"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="Renter your email "
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/et_dob"
+            app:layout_constraintEnd_toEndOf="@+id/et_name"
+            app:layout_constraintStart_toStartOf="@+id/et_name"
+            app:layout_constraintTop_toBottomOf="@+id/et_name" />
+
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz "
+            android:ems="10"
+            android:hint="Full Name"
+            android:textColor="@color/black"
+            android:inputType="textPersonName"
+            android:layout_marginHorizontal="40dp"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/etRegEmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mno2" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="10dp"
+            android:text="Registeration  Form"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toTopOf="@+id/et_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.705"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.046"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/et_dob"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:focusable="false"
+            android:textColor="@color/black"
+            android:hint="Enter Date of Birth"
+            android:inputType="date"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/gender"
+            app:layout_constraintEnd_toEndOf="@+id/etRegEmail"
+            app:layout_constraintStart_toStartOf="@+id/etRegEmail"
+            app:layout_constraintTop_toBottomOf="@+id/etRegEmail" />
+
+        <EditText
+            android:id="@+id/etRegPass19"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="Confirm password "
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+            app:layout_constraintEnd_toEndOf="@+id/Ayear"
+            app:layout_constraintStart_toStartOf="@+id/Ayear"
+            app:layout_constraintTop_toBottomOf="@+id/Ayear"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/mno"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:digits="1234567890"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:textColor="@color/black"
+            android:inputType="phone"
+            android:maxLength="13"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/state"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/gender"
+            app:layout_constraintBottom_toTopOf="@+id/mno"
+            app:layout_constraintEnd_toEndOf="@+id/et_dob"
+            app:layout_constraintStart_toStartOf="@+id/et_dob"
+            app:layout_constraintTop_toBottomOf="@+id/et_dob"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="Address"
+            android:textColor="@color/black"
+            android:inputType="textPostalAddress"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/college"
+            app:layout_constraintEnd_toEndOf="@+id/mno"
+            app:layout_constraintHorizontal_bias="0.531"
+            app:layout_constraintStart_toStartOf="@+id/mno"
+            app:layout_constraintTop_toBottomOf="@+id/mno" />
+
+        <Spinner
+            android:id="@+id/college"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/clgname"
+            app:layout_constraintBottom_toTopOf="@+id/Atype"
+            app:layout_constraintEnd_toEndOf="@+id/state"
+            app:layout_constraintStart_toStartOf="@+id/state"
+            app:layout_constraintTop_toBottomOf="@+id/state"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <Spinner
+            android:id="@+id/Atype"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/adtype"
+            app:layout_constraintBottom_toTopOf="@+id/Ctype"
+            app:layout_constraintEnd_toEndOf="@+id/college"
+            app:layout_constraintStart_toStartOf="@+id/college"
+            app:layout_constraintTop_toBottomOf="@+id/college" />
+
+        <Spinner
+            android:id="@+id/Ctype"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/ctype"
+            app:layout_constraintBottom_toTopOf="@+id/branch"
+            app:layout_constraintEnd_toEndOf="@+id/Atype"
+            app:layout_constraintStart_toStartOf="@+id/Atype"
+            app:layout_constraintTop_toBottomOf="@+id/Atype"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <Spinner
+            android:id="@+id/branch"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/brname"
+            app:layout_constraintBottom_toTopOf="@+id/Cyear"
+            app:layout_constraintEnd_toEndOf="@+id/Ctype"
+            app:layout_constraintStart_toStartOf="@+id/Ctype"
+            app:layout_constraintTop_toBottomOf="@+id/Ctype"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <Spinner
+            android:id="@+id/Ayear"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/ayear"
+            app:layout_constraintBottom_toTopOf="@+id/etRegPass19"
+            app:layout_constraintEnd_toEndOf="@+id/Cyear"
+            app:layout_constraintStart_toStartOf="@+id/Cyear"
+            app:layout_constraintTop_toBottomOf="@+id/Cyear" />
+
+        <Spinner
+            android:id="@+id/Cyear"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:entries="@array/cyear"
+            app:layout_constraintBottom_toTopOf="@+id/Ayear"
+            app:layout_constraintEnd_toEndOf="@+id/branch"
+            app:layout_constraintStart_toStartOf="@+id/branch"
+            app:layout_constraintTop_toBottomOf="@+id/branch"
+            android:layout_marginHorizontal="40dp"
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Register now"
+            android:layout_marginHorizontal="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/etRegPass19"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="@+id/etRegPass19"
+            app:layout_constraintTop_toBottomOf="@+id/etRegPass19"
+            app:layout_constraintVertical_bias="0.308" />
+
+        <TextView
+            android:id="@+id/tv_userid"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title"
+            app:layout_constraintEnd_toEndOf="@+id/tv_title"
+            app:layout_constraintHorizontal_bias="0.365"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_title"
+            app:layout_constraintVertical_bias="0.787" />
+
+        <TextView
+            android:id="@+id/textView999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_title"
+            app:layout_constraintEnd_toEndOf="@+id/tv_title"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="@+id/tv_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_title"
+            app:layout_constraintVertical_bias="0.788" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
