@@ -58,7 +58,7 @@
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="250dp"
                 android:layout_height="40dp"
-                android:text="sits@sinhgad.edu" />
+                android:text="aissmspolypune@yahoo.co.in" />
         </LinearLayout>
 
         <TextView
@@ -91,7 +91,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/ic_baseline_call_24"
-                android:text="call 02172329566" />
+                android:text="+91 20-26059157 / 26058077" />
         </LinearLayout>
 
         <LinearLayout
@@ -141,7 +141,7 @@
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
-                android:text="49/1, Westerly Bypass Rd, opp. Bank of Maharashtra, Narhe, Pune, Maharashtra 411041"
+                android:text="No. 1,Kennedy Road, Near RTO Office Sangamwadi,Shivajinagar, Pune - 01"
                 android:textColor="#302A2A" />
 
         </LinearLayout>
