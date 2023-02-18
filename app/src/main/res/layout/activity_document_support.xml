@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/del10"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/white_500"
@@ -43,7 +43,7 @@
     <Button
         android:id="@+id/del12"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/white_500"
@@ -57,11 +57,11 @@
     <Button
         android:id="@+id/deldip"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Delete Diploma"
         android:backgroundTint="@color/white_500"
+        android:text="Delete Diploma"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/delfe"
         app:layout_constraintEnd_toEndOf="@+id/del12"
@@ -72,11 +72,11 @@
     <Button
         android:id="@+id/delfe"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Delete FE"
         android:backgroundTint="@color/white_500"
+        android:text="Delete FY"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/delse"
         app:layout_constraintEnd_toEndOf="@+id/deldip"
@@ -87,11 +87,11 @@
     <Button
         android:id="@+id/delse"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Delete SE"
         android:backgroundTint="@color/white_500"
+        android:text="Delete SY"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/delte"
         app:layout_constraintEnd_toEndOf="@+id/delfe"
@@ -101,44 +101,24 @@
     <Button
         android:id="@+id/delte"
         android:layout_width="254dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Delete TE"
         android:backgroundTint="@color/white_500"
+        android:text="Delete TY"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/delbe"
         app:layout_constraintEnd_toEndOf="@+id/delse"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/delse"
         app:layout_constraintTop_toBottomOf="@+id/delse" />
 
     <Button
-        android:id="@+id/delbe"
-        android:layout_width="254dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Delete BE"
-        android:backgroundTint="@color/white_500"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/delcus"
-        app:layout_constraintEnd_toEndOf="@+id/delte"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/delte"
-        app:layout_constraintTop_toBottomOf="@+id/delte" />
-
-    <Button
         android:id="@+id/delcus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="74dp"
         android:text="Custom"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/delbe"
-        app:layout_constraintStart_toStartOf="@+id/delbe"
-        app:layout_constraintTop_toBottomOf="@+id/delbe" />
+        tools:layout_editor_absoluteX="158dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

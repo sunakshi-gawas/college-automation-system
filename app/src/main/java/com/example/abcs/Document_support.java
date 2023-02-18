@@ -33,7 +33,6 @@ public class Document_support extends AppCompatActivity {
         _FE=findViewById(R.id.delfe);
         _SE=findViewById(R.id.delse);
         _TE=findViewById(R.id.delte);
-        _BE=findViewById(R.id.delbe);
 
 
         auth=FirebaseAuth.getInstance();
@@ -167,28 +166,6 @@ public class Document_support extends AppCompatActivity {
 
             }
         });
-
-        _BE.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                StorageReference desertRef =  storageReference.child("final student data/"+ "/"+auth.getCurrentUser().getUid()+"/BE" + ".pdf");
-                desertRef.delete().addOnSuccessListener(new OnSuccessListener<Void>() {
-                    @Override
-                    public void onSuccess(Void aVoid) {
-                        // File deleted successfully
-                        Toast.makeText(Document_support.this, "BE Document deleted", Toast.LENGTH_SHORT).show();
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception exception) {
-                        // Uh-oh, an error occurred!
-                        Toast.makeText(Document_support.this, "Error delete"+ exception.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-            }
-        });
-
 
     }
 }
