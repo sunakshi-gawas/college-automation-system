@@ -20,7 +20,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
 public class uplod_documents extends AppCompatActivity {
-Button u10,d10,u12,d12,updip,downdip,upfe,downfe,upse,downse,upte,downte,upbe,ddownbe,upcustom,downcoston;
+Button u10,d10,u12,d12,updip,downdip,upfe,downfe,upse,downse,upte,downte,upcustom,downcoston;
 //TextView tu10,td10,tu12,td12,tupdip,tdowndip,tupfe,tdownfe,tupse,tdownse,tupte,tdownte,tupbe,tddownbe,tupcustom,tdowncoston;
 TextView supportui;
 String s;
@@ -74,8 +74,6 @@ Button feesturct;
         downse =findViewById(R.id.downlodse);
         upte=findViewById(R.id.uplodte);
         downte =findViewById(R.id.downlodte);
-        upbe=findViewById(R.id.uplodbe);
-        ddownbe =findViewById(R.id.downlodbe);
         upcustom=findViewById(R.id.button20);
         downcoston=findViewById(R.id.button20);
         domesile=findViewById(R.id.button11);
@@ -98,7 +96,6 @@ Button feesturct;
         downfe.setVisibility(View.INVISIBLE);
         downse.setVisibility(View.INVISIBLE);
         downte.setVisibility(View.INVISIBLE);
-        ddownbe.setVisibility(View.INVISIBLE);
      //   downcoston.setVisibility(View.INVISIBLE);
 
         supportui.setText(getIntent().getStringExtra("assignno1"));
@@ -182,8 +179,6 @@ domesile.setOnClickListener(new View.OnClickListener() {
                 _4=uri.toString();
                 //  Toast.makeText(uplod_documents.this, aaaaaaa, Toast.LENGTH_SHORT).show();
                // tddownbe.setText(_4);
-                ddownbe.setVisibility(View.VISIBLE);
-                upbe.setVisibility(View.INVISIBLE);
 
             }
         });
@@ -298,15 +293,6 @@ u12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(uplod_documents.this, BE_3.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        upbe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(uplod_documents.this, BE_4.class);
                 startActivity(intent);
                 finish();
             }
@@ -465,46 +451,6 @@ String fileName="10";
 
             }
         });
-
-
-
-
-        ddownbe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                downloadFile10(uplod_documents.this,".pdf",DIRECTORY_DOWNLOADS,_4);
-
-            }
-
-            private void downloadFile10(uplod_documents uplod_documents, String s, String directoryDownloads, String s1) {
-                String fileName="BE";
-                DownloadManager downloadmanager = (DownloadManager) uplod_documents.
-                        getSystemService(Context.DOWNLOAD_SERVICE);
-                Uri uri = Uri.parse(s1);
-                DownloadManager.Request request = new DownloadManager.Request(uri);
-
-                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-                request.setDestinationInExternalFilesDir(uplod_documents, directoryDownloads, fileName + s);
-
-                downloadmanager.enqueue(request);
-
-            }
-        });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
